@@ -12,20 +12,26 @@
       </div>
       <div class="col-md-6">
         <h4 class="headings">Output</h4>
-        <div class="in-out">{{md}}</div>
+        <div class="in-out" :key="md" v-md>{{md}}</div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
+import md from '../directives/md'
+
 export default {
   name: 'HelloWorld',
   data(){
     return {
-      md: ''
+      md: ``
     }
   },
+  directives: {
+    md
+  }
 }
 </script>
 
@@ -47,5 +53,6 @@ textarea{
   width: 100%;
   background-color: #efefef;
   padding: 10px;
+  overflow: scroll;
 }
 </style>
