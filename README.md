@@ -6,4 +6,5 @@ Possibly through different methods
 
 Currently available
 1. Vue.js
-> Live link coming soon (not so soon)
+    > [Live link]("https://giggly-md.glitch.me")
+    > Offers a handwritten primitive markdown parser. Only single level lists are supported
