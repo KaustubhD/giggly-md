@@ -54,5 +54,7 @@ textarea{
   background-color: #efefef;
   padding: 10px;
   overflow: scroll;
+  border: 0;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
 }
 </style>
